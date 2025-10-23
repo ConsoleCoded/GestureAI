@@ -1,7 +1,14 @@
+"""
+Author: Abhishek Kumar Singh / consolecoded
+Initials: AKS
+Date: 23-10-25
+Project: GestureAI
+"""
 import cv2
 import mediapipe as mp
 import numpy as np
 import os
+from initials import signature
 
 # ==== CONFIG ====
 GESTURE_NAME = input("Enter gesture name: ").strip()  # e.g., open, fist, thumbs_up
@@ -63,3 +70,8 @@ while count < SAMPLES:
 cap.release()
 cv2.destroyAllWindows()
 print(f"✅ Done! {count} samples saved in '{path}'.")
+
+def signature():
+    print('GestureAI by Abhishek Kumar Singh (Consolecoded)')
+
+signature()

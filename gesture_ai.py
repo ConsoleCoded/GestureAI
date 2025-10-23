@@ -1,3 +1,9 @@
+"""
+Author: Abhishek Kumar Singh / consolecoded
+Initials: AKS
+Date: 23-10-25
+Project: GestureAI
+"""
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -6,6 +12,8 @@ import serial
 import time
 import pyautogui
 from collections import deque
+from initials import signature
+
 
 # ================= CONFIG =================
 MODEL_FILE = "gesture_model.pkl"
@@ -183,3 +191,8 @@ while cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 print("👋 Exiting")
+
+def signature():
+    print('GestureAI by Abhishek Kumar Singh (Consolecoded)')
+
+signature()

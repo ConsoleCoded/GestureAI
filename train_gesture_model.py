@@ -1,3 +1,9 @@
+"""
+Author: Abhishek Kumar Singh / consolecoded
+Initials: AKS
+Date: 23-10-25
+Project: GestureAI
+"""
 import os
 import numpy as np
 import joblib
@@ -7,6 +13,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import datetime
 import json
+from initials import signature
+
 
 # ==== CONFIG ====
 DATA_DIR = "gesture_data"
@@ -126,3 +134,8 @@ with open("gesture_meta.json", "w") as f:
 
 print("📝 Metadata saved: gesture_meta.json")
 print("\n✅ Training complete!")
+
+def signature():
+    print('GestureAI by Abhishek Kumar Singh (Consolecoded)')
+
+signature()
