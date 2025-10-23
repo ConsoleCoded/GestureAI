@@ -26,6 +26,7 @@ GestureAI is a high-accuracy static hand gesture recognition AI trained on **2 m
 7. PC-only Version but PC gestures: `gesture_AI(NA).py`
 8. Gesture Collection: `python collect_gesture_data.py`
 9. Training Model: `python train_gesture_model.py`
+
 Notes:
 Static gestures only; dynamic gestures may reduce accuracy.
 
