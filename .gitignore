@@ -1,0 +1,6 @@
+# Ignore large model file
+gesture_model.pkl
+
+# Node modules
+node_modules/
+*.log

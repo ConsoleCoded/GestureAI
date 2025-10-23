@@ -1,0 +1,25 @@
+{
+    "timestamp": "2025-10-17T11:30:09.795407",
+    "num_classes": 18,
+    "classes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Heart",
+        "Open",
+        "Peace",
+        "Thumbs_UP",
+        "close",
+        "four",
+        "open_hand",
+        "rotate_anticlockwise",
+        "rotate_clockwise",
+        "three",
+        "thumbs_down",
+        "thumbsdown",
+        "thumbsup",
+        "yoyo"
+    ],
+    "accuracy": 0.9863318777292577
+}
